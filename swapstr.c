@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <conio.h>
 #include <string.h>
 void main(){
      char str[20],tmp;
      int i,j;
-     clrscr();
      printf("\nEnter a string : ");
      scanf("%s",str);
      printf("\n\nOriginal String     : %s",str);
@@ -14,6 +12,5 @@ void main(){
      str[i+1] = tmp;
      }
      printf("\nAfter Swap String      : %s",str);
-     getch();
 }
 
